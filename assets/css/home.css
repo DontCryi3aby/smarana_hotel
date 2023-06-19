@@ -1,0 +1,131 @@
+.admin__home-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 16px;
+}
+
+.admin__home-logo {
+    color: white;
+    font-size: 30px;
+}
+
+.admin__home-logo:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    font-size: 20px;
+}
+
+.dropdown button {
+    height: 40px;
+    font-size: 16px;
+}
+
+.dropdown-menu > li > a{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+
+/* Container */
+.admin__home-container {
+    margin-top: 60px;
+}
+
+.admin__home-sidebar {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    height: calc(100vh - 60px);
+    position: fixed;
+    left: 0;
+    top: 60px;
+}
+
+.admin__home-sidebar a {
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 14px;
+}
+
+
+
+.admin__home-sidebar a.active, .admin__home-sidebar a:hover {
+    background-color: #225081;
+    text-decoration: none;
+}
+
+.admin__home-content {
+    flex: 1;
+    background-color: #E5EBF2;
+    margin-left: 260px;
+    min-height: calc(100vh - 60px);
+    padding: 15px 30px;
+}
+
+.admin__home-content-title {
+    font-size: 36px;
+}
+
+.line {
+    border-top: 1px solid #ddd;
+}
+
+.content--container {
+    margin-top: 30px;
+}
+
+.print-btn {
+    display: inline-block;
+    padding: 10px 16px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #428bca;
+    border-radius: 5px;
+}
+
+.print-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.badge {
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.item-booked {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 16px; 
+    width: 30%;
+}
+
+.item-booked__name {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.accordion {
+    margin-top: 40px;
+}
+
+.show-btn {
+    margin-top: 10px;
+}

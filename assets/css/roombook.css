@@ -1,0 +1,52 @@
+.content--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    color: #999;
+    font-size: 22px;
+}
+
+.info-table {
+    width: 60%;
+    font-size: 16px;
+}
+
+.avaiable-table {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 80px;
+}
+
+.available-title {
+    border-bottom: 2px solid #000;
+}
+
+.sub-table {
+    width: 100%;
+}
+
+.room {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.value {
+    padding: 6px 14px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #428bca;
+    color: #fff;
+}
+
+.value.total {
+    background-color: #d9534f;
+}
+
+.btn {
+    min-width: 100px;
+}

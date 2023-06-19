@@ -1,0 +1,81 @@
+.app {
+    background-color: #0f2453;
+}
+
+
+/* Header */
+.container {
+    background-color: transparent;
+}
+
+.logo {
+    height: 100px;
+}
+
+.nav-link, .nav-link:visited {
+    color: var(--white);
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.nav-link.active {
+    color: var(--primary-color);
+}
+
+.book-btn {
+    padding: 8px 16px;
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+
+
+/* Banner */
+.carousel-caption {
+    color: var(--white);
+}
+
+.banner-img {
+    height: calc(100vh - 100px);
+    object-fit: cover;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+}
+
+.carousel__brand {
+    font-size: 3.5em;
+    color: var(--primary-color);
+    letter-spacing: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.carousel_slogan {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 10px 0 0;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.carousel_sub-slogan {
+    color: var(--primary-color);
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 11px;
+    margin: 1em auto;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.btn-change-banner.active {
+    background-color: var(--primary-color);
+}
+
+
+

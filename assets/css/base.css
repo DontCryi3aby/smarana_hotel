@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #D99529;
+    --hover-color: #E7C287;
+    --white: #fff;
+    --black: #000;
+    --text-color: #333;
+    --border-color: #bdbdbd;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+img {
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+table, tr, th, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+table {
+    font-size: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
