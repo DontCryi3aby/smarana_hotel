@@ -1,0 +1,101 @@
+.bill__container {
+    background-color: #999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bill__inner{
+    background-color: #fff;
+    width: 800px;
+    padding: 48px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.bill__title{
+    background-color:#0f2453;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 4px;
+    border-radius: 4px;
+}
+.hotel__info{
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.customer__name {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.hotel__info-desc{
+    font-size: 14px;
+}
+.hotel__logo img {
+    width: 160px;
+    object-fit: cover;
+}
+.customer__info{
+    padding: 20px 0;
+}
+
+.sub__table {
+    width: 260px;
+}
+table td, table th {
+    padding: 5px 10px;
+}
+
+.sub__table tr td:nth-child(2n+1) {
+    background-color: #EEE;
+    font-weight: 500;
+}
+
+.bill__detail{
+    width: 100%;
+}
+.bill__detail tr:nth-child(1){
+    background-color: #EEE;
+    text-align: center;
+}
+
+.bill__detail td{
+    width: 20%;
+    text-align: center;
+
+}
+
+.bill__payment {
+    margin: 20px 0;
+    float: right;
+}
+.bill__payment tr td:nth-child(2n+1){
+    background-color: #EEE;
+    font-weight: 500;
+}
+.hotel__contact{
+    margin-top: 20px;
+}
+.contact__title{
+    font-size: 20px;
+}
+.contact__item{
+    font-size: 14px;
+}
+
+.contact__item a{
+    text-decoration: underline;
+}
+
+table {
+    font-size: 14px;
+}

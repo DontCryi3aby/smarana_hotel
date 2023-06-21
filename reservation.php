@@ -129,12 +129,6 @@
                                         <label>Số phòng *</label>
                                         <select name="soPhong" class="form-control" required>
                                             <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                            <option value="7">7</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
@@ -147,7 +141,7 @@
                                             <option value="Bữa sáng & Bữa trưa">Bữa sáng & Bữa trưa</option>
                                             <option value="Bữa sáng & Bữa tối">Bữa sáng & Bữa tối</option>
                                             <option value="Bữa trưa & Bữa tối">Bữa trưa & Bữa tối</option>
-                                            <option value="Cả Ngày">Cả Ngày</option>
+                                            <option value="Cả ngày">Cả ngày</option>
                                         </select>
                                     </div>
                                     <div class="form-group">

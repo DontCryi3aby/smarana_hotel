@@ -1,6 +1,21 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['user'])){
+        header("location: index.php");
+    }
+?>
+
+<?php
+    include "connect.php";
+?>
+
+<?php
+    $queryMain = "SELECT * FROM phongdat INNER JOIN phong ON phongdat.id = phong.maKH INNER JOIN giuong ON phongdat.loaiGiuong = giuong.loaiGiuong INNER JOIN buaan ON phongdat.buaAn = buaan.loaiBuaAn WHERE trangThai = 'Thành công'";
+    $resultMain = mysqli_query($con, $queryMain);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,26 +59,35 @@
                             <th>Tiền thuê phòng</th>
                             <th>Tiền thuê giường</th>
                             <th>Tiền bữa ăn</th>
+                            <th>Thuế GTGT (VAT)</th>
                             <th>Tổng tiền</th>
                             <th>In hóa đơn</th>
                         </tr>
 
+                        <?php 
+                            while($row = mysqli_fetch_array($resultMain)){
+                        ?>
+
                         <tr>
-                            <td>Nguyễn Ngọc Thạch</td>
-                            <td>Siêu cấp Vippro</td>
-                            <td>Giường đơn</td>
-                            <td>2023-10-10</td>
-                            <td>2023-10-15</td>
-                            <td>1</td>
-                            <td>Chỉ đặt phòng</td>
-                            <td>320.00</td>
-                            <td>36.00</td>
-                            <td>9.00</td>
-                            <td>950.00</td>
+                            <td><?= $row['ho'] ." ". $row['ten'] ?></td>
+                            <td><?= $row['loaiPhong'] ?></td>
+                            <td><?= $row['loaiGiuong'] ?></td>
+                            <td><?= $row['ngayDen'] ?></td>
+                            <td><?= $row['ngayDi'] ?></td>
+                            <td><?= $row['soPhong'] ?></td>
+                            <td><?= $row['buaAn'] ?></td>
+                            <td><?= number_format($row['giaPhong'] * $row['soNgay'] * $row['soPhong'], 0, ",") ?></td>
+                            <td><?= number_format($row['giaGiuong'] * $row['soNgay'] * $row['soPhong'], 0, ",") ?></td>
+                            <td><?= number_format($row['giaBuaAn'] * $row['soNgay'] * $row['soPhong'], 0, ",") ?></td>
+                            <td><?= number_format(($row['giaPhong'] + $row['giaGiuong'] + $row['giaBuaAn']) * $row['soNgay'] * $row['soPhong'] * 0.1, 0, ",") ?></td>
+                            <td><?= number_format(($row['giaPhong'] + $row['giaGiuong'] + $row['giaBuaAn']) * $row['soNgay'] * $row['soPhong'] * 1.1, 0, ",") ?></td>
+                            
                             <td>
-                                <a class="print-btn" href="#">Print</a>
+                                <a class="print-btn" href="bill.php?id=<?= $row['id'] ?>">Print</a>
                             </td>
                         </tr>
+
+                        <?php } ?>
                     </table>
                 </div>
             </div>

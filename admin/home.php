@@ -133,7 +133,7 @@
                                                 <p class="m-0"><?= $row['loaiPhong'] ?></p>
                                                 <p><?= $row['loaiGiuong'] ?></p>
 
-                                                <a href="#"><button class='btn btn-primary show-btn' data-toggle='modal'
+                                                <a href="customer.php?id=<?= $row['id']?>"><button class='btn btn-primary show-btn' data-toggle='modal'
                                                         data-target='#myModal'>
                                                         Show
                                                     </button></a>

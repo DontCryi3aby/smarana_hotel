@@ -1,0 +1,33 @@
+.item-booked {
+    padding: 0;
+    width: 22%;
+    background-color: #fff;
+}
+
+.footer-available {
+    color: #fff;
+    background-color: #4cb1cf;
+    padding: 10px;
+}
+
+.footer-not-available {
+    color: #fff;
+    background-color: #f0433d;
+    padding: 10px;
+}
+
+.available {
+    color: #4cb1cf;
+}
+
+.not-available {
+    color: #f0433d;
+}
+
+.icon {
+    padding: 20px 20px 0;
+}
+
+.tbed {
+    padding: 0 20px 10px;
+}

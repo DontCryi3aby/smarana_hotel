@@ -1,0 +1,28 @@
+.customer__name{
+    font-size: 30px;
+}
+
+.cus-main-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cus-main-table tr:first-child {
+    background-color: #EEE;
+}
+
+.cus-main-table th, .cus-main-table td{
+    width: 33.33333%;
+}
+
+.hotel__contact {
+    text-align: center;
+}
+
+.contact__item {
+    padding: 0 10px;
+}
+
+.contact__item + .contact__item {
+    border-left: 1px solid #ddd;
+}

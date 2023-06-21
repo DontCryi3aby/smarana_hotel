@@ -1,0 +1,70 @@
+table {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    width: 20%;
+}
+
+.form {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.input-submit {
+    margin-top: 10px;
+    color: #fff;
+    background-color: #428bca;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.update-btn, .del-btn {
+    width: 40%;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #428bca;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.del-btn {
+    background-color: #d9534f;
+    border: none;
+    outline: none;
+}
+
+.upd-btn, .del-btn {
+    height: 38px;
+    width: 100px;
+}
+
+input {
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.sua-submit {
+    color: white;
+    background-color: #428bca;
+    width: 100px;
+}
+
+.sua-submit:hover {
+    color: white;
+    background-color: #428bca;
+    opacity: 0.8;
+}
+
+.lbl {
+    margin: 10px 0;
+    font-weight: 500;
+}

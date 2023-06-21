@@ -1,4 +1,11 @@
 <?php
+    session_start();
+    if(!isset($_SESSION['user'])){
+        header("location: index.php");
+    }
+?>
+
+<?php
     include "connect.php";
 ?>
 
@@ -106,6 +113,7 @@
                                 if(isset($_POST['delete'])){
                                     $queryD = "DELETE FROM phongdat WHERE id = $id";
                                     $resultD = mysqli_query($con, $queryD);
+                                    header("location: home.php");
                                 }
                             ?>
 

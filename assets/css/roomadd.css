@@ -1,0 +1,60 @@
+.content-container {
+    margin-top: 40px;
+}
+
+.table-item {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table-title {
+    color: #fff;
+    background-color: #428bca;
+    padding: 10px 20px;
+}
+
+.table-inner {
+    padding: 20px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.add-table {
+    height: 380px;
+    width: 40%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+label {
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.add-room-btn {
+    color: #fff;
+    background-color: #428bca;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.main-table {
+    width: 50%;
+}
+
+.gia-input {
+    width: 100%;
+    padding: 6.5px 12px;
+    border-radius: 5px;
+    border-color: #ddd;
+    outline: none;
+    border: 1px solid #dee2e6;
+    font-size: 16px;
+}

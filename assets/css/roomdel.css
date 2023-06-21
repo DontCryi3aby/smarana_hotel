@@ -1,0 +1,18 @@
+.table {
+    margin-top: 20px;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.del-btn {
+    color: #fff;
+    width: 100%;
+    background-color: #428bca;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
