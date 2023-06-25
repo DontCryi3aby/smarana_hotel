@@ -78,4 +78,167 @@
 }
 
 
+/* Rooms */
+.main-container {
+    background-color: #fff;
+    text-align: center;
+}
 
+.main-container__inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.rooms__title {
+    font-size: 48px;
+    color: #0f2453;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding: 20px 0 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.rooms__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.room-item {
+    background-color: #fff;
+    width: 555px;
+    text-align: justify;
+    border: 1px solid #0f2453;
+}
+
+.room-item__info {
+
+}
+
+.room-item__name {
+    background-color: #0f2453;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.room-item__name, .roomitem-rate {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.roomitem-rate i {
+    color: gold;
+}
+
+.room-item__desc {
+    padding: 0 20px;
+    height: 90px;
+}
+
+.carousel-item img {
+    width: 555px;
+}
+
+.room-item {
+    margin: 10px;
+}
+
+.room-item__book-btn {
+    background-color: gold;
+    padding: 10px 20px;
+    color: white;
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+
+/* About */
+#about {
+    background-color: #fff;
+    border-top: 1px solid #0f2453;
+    padding: 20px 0 40px;
+}
+
+.about {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.about__left {
+    width: 400px;
+}
+
+.about__title {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.about__img {
+    width: 400px;
+}
+
+.about__img img {
+    width: 100%;
+}
+
+.about__right {
+    width: 60%;
+    text-align: justify;
+}
+
+.about__right p {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer__main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__title {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.footer-item {
+    text-align: left;
+    font-size: 20px;
+}
+
+.footer-item__label {
+    color: gold;
+}
+
+iframe {
+    height: 200px;
+    margin: 20px 0;
+}
+
+.copyright {
+    font-size: 36px;
+}
+
+#rooms {
+    padding-bottom: 20px;
+}

@@ -47,7 +47,7 @@
             <div class="hotel__info d-flex align-items-center justify-content-between">
                 <div class="hotel__info-desc">
                     <p>SMARANA HANOI HERITAGE</p>
-                    <p>Số 5, 82/1 Alley, Đường Dịch Vọng, Cầu Giấy</p>
+                    <p>Số 5, Ngõ 82/1, Đường Dịch Vọng, Cầu Giấy</p>
                     <p>+84 705 768 103</p>
                     <p>reservation@smarana.vn</p>
                 </div>
