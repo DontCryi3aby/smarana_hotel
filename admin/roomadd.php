@@ -65,7 +65,7 @@
                 </button>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="user.php">Thông tin tài khoản</a></li>
-                    <li><a class="dropdown-item" href="roommanagement.php">Cài đặt</a></li>
+                    <li><a class="dropdown-item" href="roommanagement.php">Quản lý phòng</a></li>
                     <li><a class="dropdown-item" href="logout.php">Đăng xuất</a></li>
                 </ul>
             </div>

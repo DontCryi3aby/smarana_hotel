@@ -33,17 +33,16 @@
 
         <div class="admin__home-container d-flex">
             <div class="admin__home-sidebar">
-                <a href="home.php">Status</a>
-                <a href="#">News Letters</a>
-                <a href="roombook.php">Room Booking</a>
-                <a class="active" href="payment.php">Payment</a>
-                <a href="#">Profit</a>
-                <a href="logout.php">Logout</a>
+                <a href="home.php">Trạng thái</a>
+                <a href="roombook.php">Phòng đặt</a>
+                <a class="active" href="payment.php">Thanh toán</a>
+                <a href="#">Lợi nhuận</a>
+                <a href="logout.php">Đăng xuất</a>
             </div>
 
             <div class="admin__home-content">
                 <div class="admin__home-content-title">
-                    Payment Details
+                    Thanh Toán
                 </div>
                 <div class="line"></div>
                 <div class="content--container">

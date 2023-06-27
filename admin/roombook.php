@@ -62,17 +62,16 @@
 
         <div class="admin__home-container d-flex">
             <div class="admin__home-sidebar">
-                <a href="home.php">Status</a>
-                <a href="#">News Letters</a>
-                <a class="active" href="roombook.php">Room Booking</a>
-                <a href="payment.php">Payment</a>
-                <a href="#">Profit</a>
-                <a href="logout.php">Logout</a>
+                <a href="home.php">Trạng thái</a>
+                <a class="active" href="roombook.php">Phòng đặt</a>
+                <a href="payment.php">Thanh toán</a>
+                <a href="#">Lợi nhuận</a>
+                <a href="logout.php">Đăng xuất</a>
             </div>
 
             <div class="admin__home-content">
                 <div class="admin__home-content-title">
-                    Room Booking <?php
+                    Phòng đặt <?php
                         $date = date("d/m/Y");
                         echo "<span class='date'>$date</span>"
                     ?>

@@ -36,7 +36,7 @@
 
             <div class="admin__home-content">
                 <div class="admin__home-content-title">
-                    Payment Details
+                    Chi Tiết Phòng
                 </div>
                 <div class="line"></div>
                 <div class="content-container">
@@ -110,7 +110,7 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Phòng đã đặt <span class="badge text-bg-secondary"><?= $count ?></span>
+                                    Phòng được đặt <span class="badge text-bg-secondary"><?= $count ?></span>
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"

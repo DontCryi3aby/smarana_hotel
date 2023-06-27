@@ -1,8 +1,7 @@
 <div class="admin__home-sidebar">
-    <a class="active" href="home.php">Status</a>
-    <a href="#">News Letters</a>
-    <a href="roombook.php">Room Booking</a>
-    <a href="payment.php">Payment</a>
-    <a href="#">Profit</a>
-    <a href="logout.php">Logout</a>
+    <a class="active" href="home.php">Trạng thái</a>
+    <a href="roombook.php">Phòng đặt</a>
+    <a href="payment.php">Thanh toán</a>
+    <a href="#">Lợi nhuận</a>
+    <a href="logout.php">Đăng xuất</a>
 </div>
